@@ -12,6 +12,11 @@ let foo = {
 };
 let result;
 
+// console.log(foo)
+for (let index = 0; index < foo.length; index++) {
+    console.log(...Object.keys(foo[index]))
+    
+}
 
 //export result
 module.exports = result; 

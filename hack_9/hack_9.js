@@ -23,6 +23,12 @@ let bar = {
 }
 let result;
 
+// result = Object.assign(foo, bar)
+// console.log(result)
+
+// manera 2 
+result = {...bar,...foo}
+console.log(result)
 
 //export result
 module.exports = result; 

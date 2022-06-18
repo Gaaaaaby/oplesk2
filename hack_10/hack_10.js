@@ -29,6 +29,20 @@ let skills = ["git","github","docker","deploy"];
 let levels = [{LEVEL:"l-1"},{LEVEL:"l-2"},{LEVEL:"l-3"}];
 let result;
 
+result = {...foo}
+result.name
+result.roles[0] = result.roles[0].toUpperCase()
+result.roles.push(roleSuperUser, roleUser)
 
+for (let index = 0; index < foo.length; index++) {
+    console.log(Object.values(foo[index]))
+    if (Object.values(foo[index])== skills){
+        
+    }
+    
+}
+
+
+console.log(result)
 //export result
 module.exports = result; 
